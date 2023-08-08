@@ -11,6 +11,6 @@ public class Ejercicio3 {
         double area = Math.PI * Math.pow(radio, 2);
         double perimetro = 2 * Math.PI * radio;
         System.out.println("Area: " + area);
-        System.out.println("Perimetro: "+ perimetro);
+        System.out.println("Perimetro: " + perimetro);
     }
 }

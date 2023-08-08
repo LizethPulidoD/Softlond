@@ -9,9 +9,9 @@ public class Ejercicio22 {
         System.out.println("Digite una palabra: ");
         String palabra = scanner.nextLine().toLowerCase();
         StringBuilder palabraInversa = new StringBuilder(palabra);
-        if (palabra.equals(palabraInversa.reverse().toString())){
+        if (palabra.equals(palabraInversa.reverse().toString())) {
             System.out.printf("La palabra %s es palindroma", palabra);
-        }else {
+        } else {
             System.out.printf("La palabra %s no es palindroma", palabra);
         }
     }

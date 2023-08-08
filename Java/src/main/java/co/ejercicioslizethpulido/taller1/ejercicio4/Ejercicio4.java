@@ -8,9 +8,9 @@ public class Ejercicio4 {
         System.out.println("MAYORIA DE EDAD EN COLOMBIA");
         System.out.println("Digite su edad: ");
         int edad = scanner.nextInt();
-        if (edad>=18){
+        if (edad >= 18) {
             System.out.println("Usted es mayor de edad");
-        }else {
+        } else {
             System.out.println("Usted es menor de edad");
         }
     }

@@ -8,14 +8,14 @@ public class Ejercicio31 {
         int numeroSiguiente;
         int numeroAuxiliar;
         int numeroActual;
-        for (int i = 0; i < numeros.length-1; i++) {
-            for (int j = 0; j < numeros.length-1; j++) {
+        for (int i = 0; i < numeros.length - 1; i++) {
+            for (int j = 0; j < numeros.length - 1; j++) {
                 numeroActual = numeros[j];
-                numeroSiguiente = numeros[j+1];
-                if (numeroActual>numeroSiguiente){
+                numeroSiguiente = numeros[j + 1];
+                if (numeroActual > numeroSiguiente) {
                     numeroAuxiliar = numeroActual;
                     numeros[j] = numeroSiguiente;
-                    numeros[j+1] = numeroAuxiliar;
+                    numeros[j + 1] = numeroAuxiliar;
                 }
             }
         }

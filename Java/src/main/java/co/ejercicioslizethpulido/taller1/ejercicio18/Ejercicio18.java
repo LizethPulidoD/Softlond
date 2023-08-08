@@ -7,6 +7,7 @@ public class Ejercicio18 {
         String contrasena = generarContrasenaAleatoria(8);
         System.out.println("Contrasena generada: " + contrasena);
     }
+
     public static String generarContrasenaAleatoria(int longitud) {
         String caracteresPermitidos = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
         StringBuilder contrasenaGenerada = new StringBuilder();

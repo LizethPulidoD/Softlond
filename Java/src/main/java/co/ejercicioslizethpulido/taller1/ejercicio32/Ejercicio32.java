@@ -10,13 +10,13 @@ public class Ejercicio32 {
         int[] numeros = {1, 5, 7, 9, 8, 10, 2};
         boolean numeroEncontrado = false;
         for (int i = 0; i < numeros.length; i++) {
-            if (numeros[i]==numero){
+            if (numeros[i] == numero) {
                 System.out.printf("El numero %d se encuentra en la posicion %d del arreglo", numero, i);
                 numeroEncontrado = true;
             }
         }
-        if (!numeroEncontrado){
-            System.out.printf("El numero %d no se encuentra en el arreglo",numero);
+        if (!numeroEncontrado) {
+            System.out.printf("El numero %d no se encuentra en el arreglo", numero);
         }
     }
 }

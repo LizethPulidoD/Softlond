@@ -12,12 +12,9 @@ public class Main {
         LibraEsterlina libraEsterlina = new LibraEsterlina(1.28);
         PesoMexicano pesoMexicano = new PesoMexicano(0.059);
         Yen yen = new Yen(0.0070);
-        System.out.println ("El cambio de 1000 pesos colombianos a dolar canadiense equivale a " + ConversorMonedas.convertirMoneda(pesoColombiano, dolarCanadiense, 1000));
-        System.out.println ("El cambio de 200 dolares australianos a dolar equivale a " + ConversorMonedas.convertirMoneda(dolarAustraliano, dolar, 200));
-        System.out.println ("El cambio de 5000 pesos mexicanos a euro equivale a " + ConversorMonedas.convertirMoneda(pesoMexicano, euro, 5000));
-        System.out.println ("El cambio de 100 libras esterlinas a yen equivale a " + ConversorMonedas.convertirMoneda(libraEsterlina, yen, 100));
-
-
-
+        System.out.println("El cambio de 1000 pesos colombianos a dolar canadiense equivale a " + ConversorMonedas.convertirMoneda(pesoColombiano, dolarCanadiense, 1000));
+        System.out.println("El cambio de 200 dolares australianos a dolar equivale a " + ConversorMonedas.convertirMoneda(dolarAustraliano, dolar, 200));
+        System.out.println("El cambio de 5000 pesos mexicanos a euro equivale a " + ConversorMonedas.convertirMoneda(pesoMexicano, euro, 5000));
+        System.out.println("El cambio de 100 libras esterlinas a yen equivale a " + ConversorMonedas.convertirMoneda(libraEsterlina, yen, 100));
     }
 }

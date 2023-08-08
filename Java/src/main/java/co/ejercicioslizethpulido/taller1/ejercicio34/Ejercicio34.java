@@ -23,7 +23,7 @@ public class Ejercicio34 {
     }
 
     public static void rotarIzquierda(int[] arreglo, int posiciones) {
-        int[] temp = Arrays.copyOf(arreglo,posiciones);
+        int[] temp = Arrays.copyOf(arreglo, posiciones);
         for (int i = 0; i < posiciones; i++) {
             temp[i] = arreglo[i];
         }
@@ -36,7 +36,7 @@ public class Ejercicio34 {
     }
 
     public static void rotarDerecha(int[] arreglo, int posiciones) {
-        int[] temp = Arrays.copyOf(arreglo,posiciones);
+        int[] temp = Arrays.copyOf(arreglo, posiciones);
         for (int i = arreglo.length - posiciones, j = 0; i < arreglo.length; i++, j++) {
             temp[j] = arreglo[i];
         }

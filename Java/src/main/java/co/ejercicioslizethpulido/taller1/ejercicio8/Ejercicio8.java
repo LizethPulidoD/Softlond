@@ -10,7 +10,7 @@ public class Ejercicio8 {
         Random random = new Random();
         int numeroAleatorio = random.nextInt(100) + 1;
         int numeroIngresado;
-        int intentos=0;
+        int intentos = 0;
         do {
             System.out.println("Ingresa un numero entero: ");
             numeroIngresado = scanner.nextInt();

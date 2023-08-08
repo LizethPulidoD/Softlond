@@ -47,8 +47,8 @@ public class Hotel {
         this.reservas.add(reserva);
     }
 
-    public void imprimirReservas(){
-        if(!this.reservas.isEmpty()){
+    public void imprimirReservas() {
+        if (!this.reservas.isEmpty()) {
             System.out.println(this.getNombre());
             System.out.println(this.reservas);
         }

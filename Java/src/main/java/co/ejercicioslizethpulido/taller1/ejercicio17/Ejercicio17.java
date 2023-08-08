@@ -16,6 +16,7 @@ public class Ejercicio17 {
             }
         }
     }
+
     private static boolean esNumeroPrimo(int numero) {
         if (numero <= 1) {
             return false;

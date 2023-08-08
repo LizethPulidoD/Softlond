@@ -21,7 +21,7 @@ public class Ejercicio1 {
         try {
             int division = numero1 / numero2;
             System.out.printf("Division: %d / %d = %d%n", numero1, numero2, division);
-        } catch (ArithmeticException e){
+        } catch (ArithmeticException e) {
             System.out.println("No es posible dividir entre 0");
         }
     }

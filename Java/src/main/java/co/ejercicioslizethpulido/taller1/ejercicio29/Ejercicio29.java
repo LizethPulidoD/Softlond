@@ -4,8 +4,8 @@ public class Ejercicio29 {
     public static void main(String[] args) {
         int[] numeros = {25, 5, 7, 11, 9, 10, 42};
         int numeroMayor = numeros[0];
-        for (int numeroActual: numeros) {
-            if (numeroActual>numeroMayor) {
+        for (int numeroActual : numeros) {
+            if (numeroActual > numeroMayor) {
                 numeroMayor = numeroActual;
             }
         }

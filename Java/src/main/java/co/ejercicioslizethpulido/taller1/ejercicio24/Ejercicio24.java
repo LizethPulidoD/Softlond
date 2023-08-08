@@ -11,6 +11,6 @@ public class Ejercicio24 {
         char letra = scanner.next().charAt(0);
         System.out.println("¿Por cual letra desea reemplazarlo? ");
         char reemplazo = scanner.next().charAt(0);
-        System.out.println(oracion.replace(letra,reemplazo));
+        System.out.println(oracion.replace(letra, reemplazo));
     }
 }
